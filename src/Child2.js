@@ -13,6 +13,10 @@ const Child2 = () => {
             <button onClick={() => dispatch('INCREMENT')}>
                 Increment Counter Reducer
             </button>
+
+            <button onClick={() => dispatch('DECREMENT')}>
+                Dncrement Counter Reducer
+            </button>
         </div>
     )
 }
